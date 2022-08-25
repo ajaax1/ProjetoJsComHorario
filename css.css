@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: coral;
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section{
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+#imagem img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow:5px 5px 10px;
+}
